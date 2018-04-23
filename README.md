@@ -1,26 +1,17 @@
-# Darker
+# Awards
 
 ### Introduction
-Darker est un thème conçu pour le CMS [MineWeb](https://github.com/MineWeb/MineWebCMS). Il est désormais gratuit et disponible pour tous et vous pouvez participer à son évolution.
+Awards est un thème conçu pour le CMS [MineWeb](https://github.com/MineWeb/MineWebCMS). Il est désormais gratuit et disponible pour tous et vous pouvez participer à son évolution.
 
-![Demo du thème](https://i.imgur.com/W6Fo6bC.png)
+![Demo du thème](https://i.imgur.com/vf7LsTj.png)
 
 ### Fonctionnalités du thème
 
 - Adapté à tous les écrans (Ordinateurs, tablettes, smartphones, ...)
 - Couleurs personnalisables
+- Vidéo Youtube sur l'accueil du thème
 - Beaucoup de contenu modifiable
-- Thème sombre
-
-Cependant ce thème n'est pas compatible avec tous les plugins, voici les plugins supportés : 
-
-- Shop
-- Support
-- Vote
-- Forum
-- ChangeLog
-
-Pour tous les autres il peut subvenir des problèmes de compatibilité.
+- Compatible avec tous les plugins
 
 
 ### Comment modifier mon thème
@@ -45,7 +36,7 @@ ___
 
 Pour installer ce thème vous devez :
 - Télécharger le .zip (Bouton vert avec l'instruction "Clone or download" en haut à droite)
-- Déplacer le dossier télécharger "**Theme-Darker**" dans : ```app\View\Themed\```
+- Déplacer le dossier télécharger "**Theme-Awards**" dans : ```app\View\Themed\```
 - Activer le thème depuis le Panel Administrateur (Autres > Thèmes)
 
 
