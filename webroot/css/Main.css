@@ -78,6 +78,7 @@ body{
     position: relative;
     margin-top: -80px;
     animation: welcome 2s;
+    pointer-events: none;
 }
 
 .header .website-name{
