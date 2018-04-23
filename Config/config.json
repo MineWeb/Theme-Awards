@@ -1,0 +1,41 @@
+{
+    "name":"Awards",
+    "slug":"Awards",
+    "author":"Orphevs",
+    "version":"1.1.0",
+    "apiID":0,
+    "slider":true,
+    "configurations":{
+        "favicon_url":"",
+        "launcher_global":"false",
+        "ip_global":"play.awardsmc.fr",
+        "theme-color":"rgb(32, 48, 120)",
+        "header_global":"true",
+        "header-welcome":"Bienvenue",
+        "video-id":"geGziPUQD2U",
+        "video-color":"",
+        "header-text":"Rejoignez-nous dès maintenant !",
+        "header-only":"false",
+        "news_global":"true",
+        "news_caractere":"",
+        "news_commentaires":"true",
+        "news_likes":"true",
+        "slider":"true",
+        "vote_global":"true",
+        "vote_texte":"",
+        "vote_img":"",
+        "social_global":"true",
+        "discord_global":"true",
+        "discord_id":"316532971903385601",
+        "footer_global":"true",
+        "footer_texte":"Awards est un serveur factice conçu en Novembre 2017\r\n<br><br>\r\nIl s’inscrit comme l’un des meilleurs serveurs factices, même si personne ne peut vraiment le vérifier.",
+        "css_custom":"",
+        "logo":false
+    },
+    "supported":{
+        "eywek.shop.1":"^1.2.2",
+        "eywek.support.2":"^1.0.13",
+        "eywek.vote.3":"^2.0.5",
+        "kenshimdev.changelog.54":"^1.1.0"
+    }
+}
