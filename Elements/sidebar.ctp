@@ -17,13 +17,13 @@
             <?php $i++; } ?>
             <?php } else { ?>
             <div class="item active">
-                <img src="/theme/awards/img/carousel-widget/slider1.jpg" alt="slide_1">
+                <img src="theme/Theme-Awards/img/carousel-widget/slider1.jpg" alt="slide_1">
                 <div class="carousel-caption">
                     <h3>Rejoignez-nous dès maintenant sur <?php echo $website_name ?></h3>
                 </div>
             </div>
             <div class="item">
-                <img src="/theme/awards/img/carousel-widget/slider2.jpg" alt="slide_2">
+                <img src="theme/Theme-Awards/img/carousel-widget/slider2.jpg" alt="slide_2">
                 <div class="carousel-caption">
                     <h3>Insérez le texte que vous souhaitez ici</h3>
                 </div>
