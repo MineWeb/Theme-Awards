@@ -14,6 +14,7 @@
                       <?= $theme_config['footer_texte']; ?>
                   </p>
               </div>
+              <?php if($EyPlugin->isInstalled('eywek.vote')){ ?>
               <div class="col-md-8 footer-vote">
                   <h3 class="title">Nos meilleurs votants</h3>
                   <div class="under-title"></div>
@@ -41,6 +42,7 @@
                     <?php endforeach; ?> 
                   </div>
               </div>
+              <?php } ?>
           </div>
         </div>
       </div>

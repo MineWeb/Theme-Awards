@@ -63,7 +63,7 @@
                 <input type="text" class="form-control" value="<?= $Lang->date($user['created']) ?>" disabled>
               </div>
             </div>
-            <?php if($EyPlugin->isInstalled('eywek.shop.1')) { ?>
+            <?php if($EyPlugin->isInstalled('eywek.shop')) { ?>
               <div class="col-sm-6">
                 <div class="form-group">
                   <label><?= $Lang->get('USER__MONEY') ?></label>
@@ -150,7 +150,7 @@
           </div>
         <?php } ?>
 
-        <?php if($EyPlugin->isInstalled('eywek.shop.1')) { ?>
+        <?php if($EyPlugin->isInstalled('eywek.shop')) { ?>
           <div class="box clearfix no-mb">
 
               <div class="panel panel-default">
@@ -324,7 +324,7 @@
               <li class="active">
                 <a href="#"><i class="fa fa-list"></i> <?= $Lang->get('USER__PROFILE') ?></a>
               </li>
-              <?php if($EyPlugin->isInstalled('eywek.shop.1')) { ?>
+              <?php if($EyPlugin->isInstalled('eywek.shop')) { ?>
                 <li><a href="<?= $this->Html->url(array('controller' => 'shop', 'action' => 'index', 'plugin' => 'shop')) ?>"><i class="fa fa-money"></i> <?= $Lang->get('SHOP__ADD_MONEY') ?></a></li>
               <?php } ?>
               <li>
