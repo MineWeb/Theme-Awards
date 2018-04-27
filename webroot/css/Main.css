@@ -680,7 +680,7 @@ body{
 .shop .product img{
     width: 100%;
     max-width: 150px;
-    height: auto;
+    height: 130px;
     margin: auto;
     margin-bottom: 10px;
 }
