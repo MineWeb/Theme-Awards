@@ -21,7 +21,7 @@
                 et gagnez des <span class="theme-color-text">récompenses</span>
             </h3>
         <?php } ?>
-        <a href="#" class="btn-vote-widget theme-color-background">Voter pour <?php echo $website_name; ?></a>
+        <a href="<?= $this->Html->url('/') ?>vote" class="btn-vote-widget theme-color-background">Voter pour <?php echo $website_name; ?></a>
     </div>
 </div>
 <?php } ?>
