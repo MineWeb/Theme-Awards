@@ -2,8 +2,8 @@
     "name":"Awards",
     "slug":"Awards",
     "author":"Orphevs",
-    "version":"1.1.3",
-    "apiID":0,
+    "version":"1.1.4",
+    "apiID":-1,
     "slider":true,
     "configurations":{
         "favicon_url":"",
@@ -32,10 +32,5 @@
         "css_custom":"",
         "logo":false
     },
-    "supported":{
-        "eywek.shop.1":"^1.2.2",
-        "eywek.support.2":"^1.0.13",
-        "eywek.vote.3":"^2.0.5",
-        "kenshimdev.changelog.54":"^1.1.0"
-    }
+    "supported":{}
 }
