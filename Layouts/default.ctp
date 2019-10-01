@@ -49,9 +49,6 @@
         
 </head>
 <body>
-    <script>
-        var eyweklapute = 1;
-    </script>
   <?php if(isset($Lang)) { ?>
     <div class="header-desktop">
         
