@@ -15,7 +15,7 @@ $Support = new SupportController();
             <?php }else{ ?>
                 <a class="btn btn-primary" href="<?= $this->Html->url(array('controller' => 'Support', 'admin' => false, 'action' => 'index')) ?>"><i class="fa fa-arrow-left"></i> <?= $Lang->get('SUPPORT_BACK_TO_LIST'); ?></a>
             <?php }?>
-            <h2><?= $Lang->get('SUPPORT__PROBLEMQUESTION') ?> <?= $Support->getUser('pseudo', $ticket['Ticket']['author']); ?></h2>
+            <h2><?= $Lang->get('SUPPORT__PROBLEMQUESTION', ['{ID_TICKET}' => $ticket['Ticket']['id']]) ?> <?= $Support->getUser('pseudo', $ticket['Ticket']['author']); ?></h2>
             <h4><?= $Lang->get('SUPPORT__IN_A_CATEGORIE', ['{NAME}' => $Support->getCategorie($ticket['Ticket']['categorie'])]); ?></h4>
             <hr>
             <div class="panel panel-default">
