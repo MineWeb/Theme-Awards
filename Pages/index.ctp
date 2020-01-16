@@ -2,7 +2,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">        
-            <h1 class="title theme-color-underline" style="margin-bottom: 0px;"><?= before_display($page['title']) ?></h1>
+            <h1 class="titlePage theme-color-text" style="margin-bottom: 0px;"><?= before_display($page['title']) ?></h1>
         </div>        
     </div>
     <br>
