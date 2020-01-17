@@ -3,7 +3,6 @@
     "slug":"Awards",
     "author":"Orphevs",
     "version":"1.1.3",
-    "apiID":0,
     "slider":true,
     "configurations":{
         "favicon_url":"",
@@ -28,14 +27,14 @@
         "discord_global":"true",
         "discord_id":"316532971903385601",
         "footer_global":"true",
-        "footer_texte":"Awards est un serveur factice conçu en Novembre 2017\r\n<br><br>\r\nIl s’inscrit comme l’un des meilleurs serveurs factices, même si personne ne peut vraiment le vérifier.",
+        "footer_texte":"Awards est un serveur factice conçu en novembre 2017\r\n<br><br>\r\nIl s’inscrit comme l’un des meilleurs serveurs factices, même si personne ne peut vraiment le vérifier.",
         "css_custom":"",
         "logo":false
     },
     "supported":{
-        "eywek.shop.1":"^1.2.2",
-        "eywek.support.2":"^1.0.13",
-        "eywek.vote.3":"^2.0.5",
-        "kenshimdev.changelog.54":"^1.1.0"
+        "eywek.shop":"^1.2.2",
+        "eywek.support":"^1.0.13",
+        "eywek.vote":"^2.0.5",
+        "kenshimdev.changelog":"^1.1.0"
     }
 }
