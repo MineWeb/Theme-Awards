@@ -40,21 +40,28 @@
 
           <div class="panel-body">
             <ul class="nav nav-pills nav-stacked category-menu">
-              <?php
-              $i=0;
-              foreach ($search_categories as $category_link) {
-                $i++;
-
-                echo '<li';
-                  echo (isset($category) && $category_link['Category']['id'] == $category || (!isset($category) && $i == 1)) ? ' class="active"' : '';
-                echo '>';
-                  echo '<a href="'.$this->Html->url(array('controller' => 'c/'.$category_link['Category']['id'], 'plugin' => 'shop')).'">';
-                    echo $category_link['Category']['name'];
-                  echo '</a>';
-                echo '</li>';
-
-              }
-              ?>
+              <?php foreach ($search_sections as $v) { ?>
+                                <li class="dropdown" style="padding-bottom: 0px;padding-top: 0px;">
+                                    <a href="#" class="dropdown-toggle list-group-item"
+                                       data-toggle="dropdown" role="button"
+                                       aria-expanded="false"><?= before_display($v['Section']['name']) ?> <span
+                                                class="caret"></span></a>
+                                    <ul class="dropdown-menu" style="background: #212121 !important;" role="menu">
+                                        <?php foreach ($search_categories_section[$v['Section']['id']] as $va) { ?>
+                                            <li>
+                                                <a href="<?= $this->Html->url(array('controller' => 'c/' . $va['Category']['id'], 'plugin' => 'shop')) ?>"><?= before_display($va['Category']['name']) ?></a>
+                                            </li>
+                                        <?php } ?>
+                                    </ul>
+                                </li>
+                            <?php } ?>
+                            <?php foreach ($search_categories_without_section as $v) { ?>
+                                <li <?= (isset($category) && $v['Category']['id'] == $category || (!isset($category) && $i == 1)) ? ' class="active"' : '' ?>>
+                                    <a class="list-group-item"
+                                       href="<?= $this->Html->url(array('controller' => 'c/' . $v['Category']['id'], 'plugin' => 'shop')) ?>"
+                                    ><?= before_display($v['Category']['name']) ?></a>
+                                </li>
+                            <?php } ?>
             </ul>
           </div>
 
