@@ -57,19 +57,6 @@ if(isset($config['logo']) && $config['logo']) {
                 <div class="col-md-4">
                     <?= $this->element('form.input.upload.img', $form_input) ?>
 
-                    <div class="form-group">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h3 class="panel-title"><b><?= $Lang->get('THEME__FAVICON_URL') ?>
-                                    <button type="button" data-toggle="tooltip" data-placement="right" title="Le favicon est l'icône situé dans l'onglet du navigateur"><i class="fa fa-question-circle"></i></button></b></h3>
-                            </div>
-                            <div class="panel-body">
-                                <input type="text" class="form-control" name="favicon_url" value="<?= $config['favicon_url'] ?>">
-                            </div>
-                        </div>
-                        <label></label>
-                    </div>
-
                 </div>
 
                 <div class="col-md-8">                          
