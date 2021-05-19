@@ -9,21 +9,18 @@ if(isset($config['logo']) && $config['logo']) {
 <section class="content">
   <div class="row">
     <div class="col-md-12">
-      <div class="box">
-        <div class="box-header with-border">
-          <h3 class="box-title"><?= $Lang->get('THEME__CUSTOMIZATION') ?></h3>
+      <div class="card">
+        <div class="card-header with-border">
+          <h3 class="card-title"><?= $Lang->get('THEME__CUSTOMIZATION') ?></h3>
         </div>
-        <div class="box-body">
-           
-            <div class="jumbotron">
-                <h1>Awards</h1>
-                <p>Thème conçu par <a href="https://twitter.com/orphevs" target="_blank">Orphevs</a></p>
-                <br><br>
-                <p>
-                    <a class="btn btn-success" href="http://awards.orph.fr/" target="_blank" role="button">Version Live</a>
-                    <a class="btn btn-primary" href="https://mineweb.org/market/theme/Awards" target="_blank" role="button">Page boutique</a>
-                </p>
-            </div>
+        <div class="card-body">
+            <h1>Awards</h1>
+            <p>Thème conçu par <a href="https://twitter.com/orphevs" target="_blank">Orphevs</a></p>
+            <br><br>
+            <p>
+                <a class="btn btn-success" href="http://awards.orph.fr/" target="_blank" role="button">Version Live</a>
+                <a class="btn btn-primary" href="https://mineweb.org/market/theme/Awards" target="_blank" role="button">Page boutique</a>
+            </p>
             
             <form method="post" enctype="multipart/form-data" data-ajax="false">
             
@@ -37,39 +34,25 @@ if(isset($config['logo']) && $config['logo']) {
 
             <ul class="nav nav-tabs" style="margin-bottom: 30px;">
                 <li class="nav-item nav-link-1 active">
-                    <a class="nav-link" style="cursor: pointer;">General</a>
+                    <a class="nav-link text-dark" style="cursor: pointer;">General</a>
                 </li>
                 <li class="nav-item nav-link-2">
-                    <a class="nav-link" style="cursor: pointer;">Accueil</a>
+                    <a class="nav-link text-dark" style="cursor: pointer;">Accueil</a>
                 </li>
                 <li class="nav-item nav-link-3">
-                    <a class="nav-link" style="cursor: pointer;">Footer</a>
+                    <a class="nav-link text-dark" style="cursor: pointer;">Footer</a>
                 </li>
                 <li class="nav-item nav-link-4">
-                    <a class="nav-link" style="cursor: pointer;">Options avancées</a>
+                    <a class="nav-link text-dark" style="cursor: pointer;">Options avancées</a>
                 </li>
                 <li class="nav-item nav-link-5">
-                    <a class="nav-link" style="cursor: pointer;">Support</a>
+                    <a class="nav-link text-dark" style="cursor: pointer;">Support</a>
                 </li>
             </ul>
             
             <div class="opt-general">
                 <div class="col-md-4">
                     <?= $this->element('form.input.upload.img', $form_input) ?>
-
-                    <div class="form-group">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h3 class="panel-title"><b><?= $Lang->get('THEME__FAVICON_URL') ?>
-                                    <button type="button" data-toggle="tooltip" data-placement="right" title="Le favicon est l'icône situé dans l'onglet du navigateur"><i class="fa fa-question-circle"></i></button></b></h3>
-                            </div>
-                            <div class="panel-body">
-                                <input type="text" class="form-control" name="favicon_url" value="<?= $config['favicon_url'] ?>">
-                            </div>
-                        </div>
-                        <label></label>
-                    </div>
-
                 </div>
 
                 <div class="col-md-8">                          
